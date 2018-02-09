@@ -1,5 +1,3 @@
-// https://youtu.be/eOa_OL4rEl0
-
 const storage = [];
 
 const hash = (str) => {
