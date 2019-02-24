@@ -1,3 +1,11 @@
+/*
+                      Average   At worst
+Memory consumption    O(n)        O(n)
+Search                O(log n)    O(n)
+Insert                O(log n)    O(n)
+Delete                O(log n)    O(n)
+*/
+
 class Node {
   constructor(data, left = null, right = null) {
     this.data = data;
