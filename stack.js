@@ -1,5 +1,3 @@
-'use strict';
-
 class Stack {
   constructor(data) {
     this.arr = data || [];
@@ -13,4 +11,4 @@ class Stack {
   get() {
     return this.arr.pop();
   }
-};
+}
